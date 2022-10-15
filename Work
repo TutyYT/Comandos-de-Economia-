@@ -1,0 +1,4 @@
+$nomention $cooldown[1h; Você precisa esperar 1 hora para trabalhar novamente!]
+$setUserVar[moeda; $sum[$getUserVar[moeda]; $random[50;100]];$authorID] 
+$title[👷 | trabalho] $description[💵 | $username  vc tarbalhou de pedreiro e recebeu **$random[50;100]** moedas] 
+$color[#A17A10] $footerIcon[$
