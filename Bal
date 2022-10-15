@@ -1,1 +1,6 @@
-$title[💼 | Carteira]  $description[**Economias:**  **Dinheiro** 💵 | $getUserVar[moeda] moedas  **Banco** 💳 | $getUserVar[banco] moedas  **Total** 💰 | $sum[$getUserVar[moeda];$getUserVar[banco]] moedas]   $footer[economias de:$username] $footerIcon[$authorAvatar] $color[#C4C923]
+$title[💼 | Carteira]
+  $description[**Economias:**  **Dinheiro**
+ 💵 | $getUserVar[moeda] moedas  **Banco**
+ 💳 | $getUserVar[banco] moedas  **Total** 
+💰 | $sum[$getUserVar[moeda];$getUserVar[banco]] moedas]   
+$footer[economias de:$username] $footerIcon[$authorAvatar] $color[#C4C923]
